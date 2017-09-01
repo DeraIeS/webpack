@@ -1,0 +1,24 @@
+# Composer
+/vendor/
+/app/dataExchange/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace 
+
+# Sass
+.sass-cache
+.sass-cache/
+*.scssc
+*.map
+
+# Node
+node_modules/
+
+# Config
+app/configuration.inc.php
+
+# Other
+import/
+.DS_Store
+.htaccess
