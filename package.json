@@ -1,0 +1,27 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "webpack base files",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^3.5.5",
+    "gitignore": "^0.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeraIeS/webpack.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Thomas Kotowicz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DeraIeS/webpack/issues"
+  },
+  "homepage": "https://github.com/DeraIeS/webpack#readme"
+}
