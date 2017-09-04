@@ -4,12 +4,14 @@
   "description": "webpack base files",
   "main": "index.js",
   "dependencies": {
-    "webpack": "^3.5.5",
-    "gitignore": "^0.6.0"
+    "gitignore": "^0.6.0",
+    "lodash": "^4.17.4",
+    "webpack": "^3.5.5"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "webpack --config webpack.config.js"
+    "start": "webpack --config webpack.config.js",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
